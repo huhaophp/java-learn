@@ -2,12 +2,9 @@ package base;
 
 import java.util.Arrays;
 
-
 /**
  * 数组是同一数据类型的集合，数组一旦创建后，大小就不可变；
- *
  * 可以通过索引访问数组元素，但索引超出范围将报错；
- *
  * 数组元素可以是值类型（如int）或引用类型（如String），但数组本身是引用类型；
  */
 public class demo6 {

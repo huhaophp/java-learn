@@ -30,7 +30,7 @@ public class demo2 {
     }
 
     /**
-     * 计算前N个自然数的和可以根据
+     * 计算前 N 个自然数的和可以根据
      *
      * @param n n
      * @return int

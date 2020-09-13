@@ -2,6 +2,7 @@ package network;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.util.Arrays;
 
 // 还是等待客户端的链接
 public class UdpServerDemo1 {
@@ -14,7 +15,7 @@ public class UdpServerDemo1 {
         // 柱塞
         socket.receive(packet);
         System.out.println(packet.getAddress().getHostAddress());
-        System.out.println(packet.getData());
+        System.out.println(Arrays.toString(packet.getData()));
         System.out.println(new String(packet.getData(), 0, packet.getLength()));
         socket.close();
     }

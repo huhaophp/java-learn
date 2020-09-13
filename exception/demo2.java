@@ -2,6 +2,7 @@ package exception;
 
 
 public class demo2 {
+
     public static void main(String[] args) {
         try {
             if (login("admin", "123pass")) {

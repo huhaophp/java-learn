@@ -60,11 +60,12 @@ public class demo1 {
         System.out.println(list4.toString());
         int found = findMissingNumberByOrderly(10, 20, list4);
         System.out.println(found);
-//        Collections.shuffle(list4);
-//        System.out.println(list4.toString());
+        // Collections.shuffle(list4);
+        // System.out.println(list4.toString());
         int found1 = findMissingNumberByDisorder(10, 20, list4);
         System.out.println(found1);
     }
+
 
     public static int findMissingNumberByOrderly(int start, int end, List<Integer> list) {
         if (end < start) {
